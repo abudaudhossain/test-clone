@@ -1,0 +1,21 @@
+header{
+    text-align:center;
+    background: #eaececee;
+    height: 200px;
+    padding-top: 50px;
+}
+header h1{
+    font-size: 36px;
+    margin-bottom: 12px;
+}
+p{
+    font-size: 20px;
+    color: #29293aec;
+    
+}
+header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 192px;
+}

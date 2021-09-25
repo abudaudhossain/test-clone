@@ -1,0 +1,11 @@
+.shop{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px 5%;
+}
+.universites{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-right: 20px;
+}
