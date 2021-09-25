@@ -1,5 +1,6 @@
  [
   {
+    "id": 1,
     "name": "Massachusetts Institute of Technology",
     "rank": 1,
     "country": "United States",
@@ -8,42 +9,54 @@
     "tuitionRange": 20000
   },
   {
+    "id": 2,
     "name": "Harvard University",
+    "rank": 2,
     "country": "United States",
     "motto": "Veritas",
     "image": "https://www.4icu.org/i/screenshots/5720.jpg",
     "tuitionRange": 20000
   },
   {
+    "id":3,
     "name": "Stanford University",
+    "rank": 3,
     "country": "United States",
     "motto": "Die luft der freiheit weht",
     "image": "https://www.4icu.org/i/screenshots/5135.jpg",
     "tuitionRange": 20000
   },
   {
+    "id":4,
     "name": "Cornell University",
+    "rank": 4,
     "country": "United States",
     "motto": "I would found an institution where any person can find instruction in any study.",
     "image": "https://www.4icu.org/i/screenshots/6077.jpg",
     "tuitionRange": 19000
   },
   {
+    "id":5,
     "name": "University of California, Berkeley",
+    "rank": 5,
     "country": "United States",
     "motto": "Fiat Lux",
     "image": "https://www.4icu.org/i/screenshots/5143.jpg",
     "tuitionRange": 12500
   },
   {
+    "id":6,
     "name": "Columbia University in the City of New York",
+    "rank": 6,
     "country": "United States",
     "motto": "In lumine tuo videbimus lumen",
     "image": "https://www.4icu.org/i/screenshots/6075.jpg",
     "tuitionRange": 18000
   },
   {
+    "id":7,
     "name": "University of Michigan",
+    "rank": 7,
     "country": "United States",
     "motto": "Artes, Scientia, Veritas",
     "image": "https://www.4icu.org/i/screenshots/5821.jpg",

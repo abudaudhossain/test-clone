@@ -3,15 +3,17 @@ import "./universite.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCartPlus} from '@fortawesome/free-solid-svg-icons'
 
-const Universites = () => {
+const Universites = (props) => {
+    const {id,name, country,motto, image, tuitionRange, rank} = props.universite;
     return (
         <div className= "cart">
-            <img src="https://www.4icu.org/i/screenshots/6835.jpg" alt="" />
-            <h2>University of Michigan</h2>
-            <p>Artes, Scientia, Veritas</p>
-            <p>Country: Untae sute</p>
-            <h4>Tuition Range: $20000</h4>
-            <button><FontAwesomeIcon icon={faCartPlus} />Add Cart</button>
+            <img src={image} alt="" />
+            <h2>{name}</h2>
+            <h3><span  className = "title">Rank: </span>{rank}</h3>
+            <p><span className="title">Moto:</span>{motto}</p>
+            <p><span className = "title">Country:</span>{country}</p>
+            <h3><span className = "title">Tuition Range: </span>${tuitionRange}</h3>
+            <button onClick ={()=>props.handleAddToCart(id)}><FontAwesomeIcon icon={faCartPlus} /> Add Cart</button>
         </div>
     );
 };

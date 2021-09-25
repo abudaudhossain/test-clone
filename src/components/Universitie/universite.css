@@ -11,9 +11,16 @@
     margin: 0 auto;
     display: block;
 }
-
+.title{
+    font-weight: 700;
+}
 .cart h2{
     margin: 10px 0;
+}
+.cart h3,
+.cart p{
+    display:flex;
+    justify-content: space-between;
 }
 button{
     background-color: #5050e9;
