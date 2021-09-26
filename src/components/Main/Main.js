@@ -13,7 +13,9 @@ const Main = () => {
         fetch("./output.JSON").then(res => res.json()).then(data => setUniversites(data));
     }, []);
 
-    // add cart hendle function 
+    /* =============================
+     add cart hendle function 
+    ============================== */
     const handleAddToCart = (id) => {
         const selectedItem = universites.find(item => item.id === id);
         if (selectedItems.indexOf(selectedItem) === -1) {
@@ -23,6 +25,23 @@ const Main = () => {
 
     }
 
+    /*===============================
+     Remove select item form Cart
+     ==============================  */
+    const hendleRemoveItem = (id) => {
+        const remaining = selectedItems.filter(item => item.id !== id);
+        setSelectedItem(remaining);
+    }
+
+    /* ====================
+     reset select item 
+    ===================== */
+    const HeandleBuyItem = () => {
+        setSelectedItem([]);
+    }
+
+
+
     return (
         <main>
             <Navbar></Navbar>
@@ -30,11 +49,17 @@ const Main = () => {
                 <div className="universites">
                     {
                         // display ui all universite information
-                        universites.map(universite => <Universite key={universite.id} universite={universite} handleAddToCart={handleAddToCart}></Universite>)
+                        universites.map(universite => <Universite
+                            key={universite.id}
+                            universite={universite}
+                            handleAddToCart={handleAddToCart}></Universite>)
                     }
                 </div>
 
-                <UnCart selectedItems={selectedItems}></UnCart>
+                <UnCart
+                    selectedItems={selectedItems}
+                    hendleRemoveItem={hendleRemoveItem}
+                    HeandleBuyItem={HeandleBuyItem}></UnCart>
             </div>
         </main>
     );
