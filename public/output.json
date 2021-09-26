@@ -54,12 +54,57 @@
     "tuitionRange": 18000
   },
   {
-    "id":7,
+    "id": 7,
     "name": "University of Michigan",
     "rank": 7,
     "country": "United States",
     "motto": "Artes, Scientia, Veritas",
     "image": "https://www.4icu.org/i/screenshots/5821.jpg",
     "tuitionRange": 13000
+  },
+  {
+    "id":8,
+    "name": "University of Washington",
+    "rank":  8,
+    "country": "United States",
+    "motto": "Lux sit",
+    "image": "https://www.4icu.org/i/screenshots/6835.jpg",
+    "tuitionRange": 10000
+  },
+  {
+    "id": 9,
+    "name": "University of Cambridge",
+    "rank":  24,
+    "country": "United Kingdom",
+    "motto": "Hinc lucem et pocula sacra",
+    "image": "https://www.4icu.org/i/screenshots/4770.jpg",
+    "tuitionRange": 12500
+  },
+  {
+    "id": 10,
+    "name": "University of Toronto",
+    "rank":  25,
+    "country": "Canada",
+    "motto": "Velut arbor ævo",
+    "image": "https://www.4icu.org/i/screenshots/614.jpg",
+    "tuitionRange": 2500
+  },
+  {
+    "id": 11,
+    "name": "The University of British Columbia",
+    "rank":  26,
+    "country": "Canada",
+    "motto": "Tuum Est",
+    "image": "https://www.4icu.org/i/screenshots/586.jpg",
+    "tuitionRange": 5000
+  },
+  {
+    "id": 12,
+    "name": "Eidgenössische Technische Hochschule Zürich",
+    "rank":  53,
+    "country": "Switzerland",
+    "motto": "All is Will",
+    "image": "https://www.4icu.org/i/screenshots/4362.jpg",
+    "tuitionRange": 1000
   }
 ]
